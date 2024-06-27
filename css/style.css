@@ -1,0 +1,102 @@
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v21-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* poppins-700 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins-v21-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.main {
+    border: 1px solid black;
+    min-height: 100vh;
+    background-color: black;
+    background-image: url("../imgs/blend.png");
+}
+
+.btn-close {
+    color: white;
+}
+
+.offcanvas-title {
+
+    font-family: 'Poppins';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: white;
+}
+
+.offcanvas-body p {
+    color: #7F7F7F;
+    width: 80%;
+}
+
+
+.form-control {
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid #3D3D3D !important;
+}
+
+.form-control::placeholder {
+    color: white !important;
+}
+
+.mb-3 label[for="check"] {
+    color: white !important;
+    margin-left: 16px;
+}
+
+input[type="checkbox"] {
+    background-color: transparent !important;
+    color: white;
+}
+
+.hr {
+    height: 1px;
+    background-color: #3D3D3D;
+}
+
+span {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #3D3D3D;
+}
+
+.submit {
+    width: 200px;
+    height: 48px;
+    background-color: #4B72C2;
+    color: white;
+    border-radius: 4px;
+    opacity: 0px;
+    border: 1px solid #4B72C2;
+}
